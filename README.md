@@ -4,7 +4,7 @@
 *Note: I drew this for my own understanding*
 
 ![A2A Protocol Flow](./a2a-protocol-diagram.png)
-A2A protocol enables a client/orchestrator agent to communicate with one or more remote agents, which may themselves coordinate with other agents. This enables distributed, multi-agent workflows. MCP can (optionally) be used to call tools from the remote agents. *Note 2: I do not explore MCP in the context of this repo*
+A2A protocol enables a client/orchestrator agent to communicate with one or more remote agents, which may themselves coordinate with other agents. This enables distributed, multi-agent workflows. MCP can (optionally) be used to call tools from the remote agents. *Note 2: I do not explore MCP in the context of this repo.*
 
 ## Agent Internal Structure
 *Note: I drew this for my own understanding*
