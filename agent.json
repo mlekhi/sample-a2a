@@ -1,0 +1,17 @@
+{
+  "name": "Simple Summarize Agent",
+  "version": "0.1.0",
+  "description": "A minimal A2A agent that summarizes input text using an LLM.",
+  "capabilities": [
+    {
+      "name": "summarize",
+      "description": "Summarizes the input text using an LLM."
+    }
+  ],
+  "endpoints": [
+    { "path": "/.well-known/agent.json", "method": "GET" },
+    { "path": "/tasks", "method": "POST" },
+    { "path": "/tasks/{id}", "method": "GET" }
+  ],
+  "authentication": []
+} 
